@@ -1,3 +1,8 @@
+body {
+	background-image: url('tmp-bg.jpg');
+	background-size:  cover;
+}
+
 .lp--guide {
 	background-color: #773cbe;
 	position: fixed;
@@ -71,6 +76,7 @@
 	margin: 110px auto 0px auto;
 	width: 9px;
 	opacity: 0.5;
+
 }
 
 .lp--guide-slider-goLeft .lp--guide-slider-goArrow{
@@ -96,7 +102,7 @@
 .lp--guide-content-animation {
 	width: 100%;
 	height: 210px;
-	background-color: #FFF;
+	background-color: #101116;
 	border-radius: 4px;
 	margin: 0px 0px 27px 0px;
 }
