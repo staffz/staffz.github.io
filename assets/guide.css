@@ -1,0 +1,160 @@
+.lp--guide {
+	background-color: #773cbe;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 430px;
+	color: #FFF;
+	font-family: Roboto;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-bottom: 160px;
+}
+
+.lp--guide-main {
+	transition: transform 1s;
+}
+.lp--guide-subPage {
+	position: absolute;
+	top: 0px;
+	left: 450px;
+	width: 100%;
+	transition: transform 1s;
+	background-color: #773cbe;
+
+}
+
+.lp--guide.lp--guide--stateSubpage .lp--guide-main {
+	transform: translate(-450px, 0px);
+}
+
+
+.lp--guide-header {
+	margin: 35px 45px 55px 45px;
+	font-size: 17px;
+	font-weight: normal; 
+}
+
+.lp--guide-header.lp--guide-header--subPage {
+	margin: 35px 25px 55px 25px;
+}
+
+.lp--guide-goBack {
+	transform: rotate(180deg);
+	width: 9px;
+	margin-right: 11px;
+
+}
+
+.lp--guide-sectionName {
+	margin: 0px 45px 12px 45px;
+	font-size: 15px;
+	font-weight: normal; 
+	color: rgba(255,255,255,0.5);
+}
+
+.lp--guide-slideNumber {
+	float: right;
+}
+
+
+
+.lp--guide-slider {
+	display: flex;
+	margin: 0px 0px 75px 0px;
+
+}
+
+.lp--guide-slider-goArrow {
+	display: block;
+	margin: 110px auto 0px auto;
+	width: 9px;
+	opacity: 0.5;
+}
+
+.lp--guide-slider-goLeft .lp--guide-slider-goArrow{
+	transform: rotate(180deg);
+}
+
+.lp--guide-slider-goLeft:hover .lp--guide-slider-goArrow, .lp--guide-slider-goRight:hover .lp--guide-slider-goArrow{
+	opacity: 1;
+}
+
+
+.lp--guide-slider-goLeft, .lp--guide-slider-goRight {
+	width: 45px;
+	cursor: pointer;
+}
+
+
+
+
+.lp--guide-content {
+	width: 100%;
+}
+.lp--guide-content-animation {
+	width: 100%;
+	height: 210px;
+	background-color: #FFF;
+	border-radius: 4px;
+	margin: 0px 0px 27px 0px;
+}
+
+.lp--guide-content-title {
+	font-size: 21px;
+	font-weight: normal; 
+	margin: 0px 0px 15px 0px;
+}
+
+.lp--guide-content-text {
+	font-size: 16px;
+	font-weight: 300; 
+	line-height: 25px;
+}
+
+.lp--guide-sectionList {
+	list-style: none;
+	margin: 0px 45px 52px 45px;	
+	padding: 0px;
+}
+
+.lp--guide-sectionList-item {
+	font-size: 15px;
+	margin: 0px;
+	vertical-align: middle;
+	margin-bottom: 12px;
+	line-height: 27px;
+}
+.lp--guide-sectionList-item-link {
+	color: inherit;
+	text-decoration: none;
+}
+.lp--guide-sectionList-item-link:hover {
+	opacity: 0.8;
+}
+
+
+.lp--guide-sectionList-item-image {
+	width: 27px;
+	height: 27px;
+	background-color: #FFF;
+	border-radius: 50%;
+	margin-right: 9px;
+	vertical-align:middle;
+}
+
+.lp--guide.lp--guide--learningLoops .lp--guide-subPage.lp--guide-subPage--learningLoops {
+	transform: translate(-450px, 0px);
+}
+
+.lp--guide.lp--guide--library .lp--guide-subPage.lp--guide-subPage--library {
+	transform: translate(-450px, 0px);
+}
+
+
+.lp--guide.lp--guide--homeScreen .lp--guide-subPage.lp--guide-subPage--homeScreen {
+	transform: translate(-450px, 0px);
+}
+
+
