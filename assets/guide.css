@@ -158,9 +158,26 @@ body {
 	transform: translate(-450px, 0px);
 }
 
-
 .lp--guide.lp--guide--homeScreen .lp--guide-subPage.lp--guide-subPage--homeScreen {
 	transform: translate(-450px, 0px);
 }
+
+.lp--guide.lp--guide--communication .lp--guide-subPage.lp--guide-subPage--communication {
+	transform: translate(-450px, 0px);
+}
+
+.lp--guide.lp--guide--plans .lp--guide-subPage.lp--guide-subPage--plans {
+	transform: translate(-450px, 0px);
+}
+
+.lp--guide.lp--guide--activities .lp--guide-subPage.lp--guide-subPage--activities {
+	transform: translate(-450px, 0px);
+}
+
+.lp--guide.lp--guide--notifications .lp--guide-subPage.lp--guide-subPage--notifications {
+	transform: translate(-450px, 0px);
+}
+
+
 
 
