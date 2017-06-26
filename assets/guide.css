@@ -43,13 +43,14 @@ body {
 
 .lp--guide-header.lp--guide-header--subPage {
 	margin: 35px 25px 55px 25px;
+	cursor: pointer;
 }
 
 .lp--guide-goBack {
 	transform: rotate(180deg);
 	width: 9px;
 	margin-right: 11px;
-
+	vertical-align: -1px;
 }
 
 .lp--guide-sectionName {
