@@ -1,5 +1,5 @@
 body {
-	background-image: url('tmp-bg.jpg');
+	 /* background-image: url('tmp-bg.jpg'); */
 	background-size:  cover;
 }
 
@@ -63,8 +63,6 @@ body {
 	float: right;
 }
 
-
-
 .lp--guide-slider {
 	display: flex;
 	margin: 0px 0px 75px 0px;
@@ -94,7 +92,9 @@ body {
 }
 
 
-
+.lp--guide-content-swipe {
+	width: 340px; 
+}
 
 .lp--guide-content {
 	width: 100%;
@@ -180,4 +180,23 @@ body {
 
 
 
+
+/* Swipe 2 required styles */
+
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+/* END required styles */
 
