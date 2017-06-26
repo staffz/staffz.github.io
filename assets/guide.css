@@ -1,5 +1,5 @@
 body {
-	 /* background-image: url('tmp-bg.jpg'); */
+	 background-image: url('tmp-bg.jpg'); 
 	background-size:  cover;
 }
 
@@ -18,14 +18,14 @@ body {
 }
 
 .lp--guide-main {
-	transition: transform 1s;
+	transition: transform 0s;
 }
 .lp--guide-subPage {
 	position: absolute;
 	top: 0px;
 	left: 450px;
 	width: 100%;
-	transition: transform 1s;
+	transition: transform 0s;
 	background-color: #773cbe;
 
 }
