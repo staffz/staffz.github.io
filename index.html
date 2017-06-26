@@ -236,9 +236,6 @@
 
 			window.guideSwipe = Swipe(document.getElementById('guide-find-your-way'), {
 				transitionEnd: function(index, element){
-					console.log(element);
-					console.log(index);
-
 					var navElem = document.getElementById('guide-find-your-way-nav');
 					navElem.innerHTML = (guideSwipe.getPos() + 1) + "/" + ( guideSwipe.getNumSlides() ); 
 				}
